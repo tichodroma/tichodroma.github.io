@@ -1,21 +1,77 @@
-<html>
-<head>
-  <title>
-    Feather Trail
-  </title>
-</head>
-<body style="background-color: #696458;">
-  <div style="margin:auto">
-    <img src="./logo_475.png">
-    <span style="display:block;width:475px;text-align:center;font-family:Georgia;font-size:18px;font-weight:bold;">Embark on a birding adventure!</span>
-    <br>
-    <p style="display:block;width:475px;text-align:left;font-family:Georgia;font-size:18px;padding-left:18px;">Feather Trail is an action RPG about going around and looking at birds, featuring real-world plants and animals. The game is currently in development.</p>
-    <a style="color:#d8ff6b;display:block;width:475px;text-align:center;font-family:Georgia;font-size:24px;" href="https://synapsid-games.itch.io/feather-trail">PLAY THE DEMO NOW!</a>
-    <br>
-    <p style="display:block;width:475px;text-align:left;font-family:Georgia;font-size:18px;padding-left:18px;">Please join us on <a href="https://discord.gg/XKt776sR2P" style="color:#d8ff6b;font-family:Georgia;font-size:18px;">Discord</a>.</p>
-    <p style="display:block;width:475px;text-align:left;font-family:Georgia;font-size:18px;padding-left:18px;">You can also follow along at the game's <a href="https://twitter.com/feathertrail" style="color:#d8ff6b;">Twitter</a>.</p>
-    <p style="display:block;width:475px;text-align:left;font-family:Georgia;font-size:18px;padding-left:18px;">For a more personal take, I'm on <a href="https://bsky.app/profile/feathertrail.net" style="color:#d8ff6b;">Bluesky</a>.</p>
-    <img src="./bago.gif" style="display:block;padding-top:30px;padding-left:100px;">
-  </div>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#443330">
+    <title>Feather Trail | An open-world birdwatching life sim</title>
+    <meta name="description" content="Hit the trail in this open-world birdwatching life sim, a labor of love by a former bird biologist turned solo gamedev. Explore pixel habitats rich with simulated populations, discover real-world birds through timing-based minigames, build trails, compete as a birder, and become an ornithologist!">
+    <link rel="canonical" href="https://feathertrail.net/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Feather Trail">
+    <meta property="og:description" content="An open-world birdwatching life sim. Explore the wilderness, discover real-world birds, and play the free demo on Steam.">
+    <meta property="og:url" content="https://feathertrail.net/">
+    <meta property="og:image" content="https://feathertrail.net/assets/images/feather-trail-hero.png">
+    <meta property="og:image:alt" content="Feather Trail's white title over a pixel-art landscape of blue sky, mountains, meadows, birds, and two birders.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="game-title">
+        <h1 class="visually-hidden" id="game-title">Feather Trail</h1>
+        <picture class="hero-art">
+          <source media="(min-width: 640px)" srcset="./assets/images/feather-trail-hero.png" width="1232" height="706">
+          <img src="./assets/images/feather-trail-portrait.png" alt="" width="748" height="896" fetchpriority="high">
+        </picture>
+        <div class="hero-content">
+          <p class="tagline">A COZY INDIE BIRDWATCHING ADVENTURE...</p>
+          <nav class="links" aria-label="Find Feather Trail">
+            <a class="button" href="https://store.steampowered.com/app/2857180/Feather_Trail/">
+              <img src="./assets/images/steam.svg" alt="" width="24" height="24">
+              <span>Wishlist on Steam</span>
+            </a>
+            <a class="button" href="https://store.steampowered.com/app/5380220/Feather_Trail_Demo/">
+              <img src="./assets/images/steam.svg" alt="" width="24" height="24">
+              <span>Play the Demo</span>
+            </a>
+            <div class="social-links">
+              <a class="button" href="https://discord.gg/XKt776sR2P" aria-label="Join Feather Trail on Discord">
+                <img src="./assets/images/discord.svg" alt="" width="24" height="24">
+                <span>Discord</span>
+              </a>
+              <a class="button" href="https://bsky.app/profile/feathertrail.net" aria-label="Follow Feather Trail on Bluesky">
+                <img src="./assets/images/bluesky.svg" alt="" width="24" height="24">
+                <span>Bluesky</span>
+              </a>
+            </div>
+          </nav>
+          <div class="introduction">
+            <p>Hit the trail in this open-world birdwatching adventure, a labor of love by a former bird biologist turned solo gamedev:</p>
+            <ul>
+              <li>Explore pixel habitats across the four seasons, rich with simulated populations.</li>
+              <li>Discover real-world birds through timing-based minigames.</li>
+              <li>Build and maintain a trail network with the Nature Service.</li>
+              <li>Grow your life list and compete in the Birding League.</li>
+              <li>Conduct research become an ornithologist with the Ecology Institute.</li>
+              <li>Deck out your campsite and collect gear to master diverse terrain!</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-logos">
+        <img class="footer-sunbittern" src="./assets/images/sunbittern_no_background.png" alt="Sunbittern" width="126" height="126" loading="lazy" decoding="async">
+        <img class="footer-godot" src="./assets/images/made_with_godot.png" alt="Made with Godot" width="165" height="63" loading="lazy" decoding="async">
+      </div>
+      <div class="footer-text">
+        <p class="copyright">&copy; 2026 Sunbittern Games.</p>
+        <p>You aren't tracked here.</p>
+        <p>Steam counts anonymized link clicks from here.</p>
+      </div>
+    </footer>
+  </body>
 </html>
